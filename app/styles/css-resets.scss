@@ -1,0 +1,21 @@
+// *** CSS RESETS ***
+
+body {
+  margin: 0;
+  background: $c-app-lightgrey;
+  font-family: 'Dosis', sans-serif;
+}
+
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+img {
+  align-self: center;
+  max-width: 100%;
+}
+
+header {
+  margin: 1rem;
+}
