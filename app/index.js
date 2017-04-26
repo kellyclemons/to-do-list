@@ -5,6 +5,7 @@ import VueRouter from 'vue-router';
 
 import App from './routes/application.vue';
 import Index from './routes/index.vue';
+// import Todos from './routes/todos.vue';
 
 Vue.use(VueRouter);
 
@@ -14,6 +15,12 @@ const routes = [
     name: 'index',
     component: Index,
   },
+
+  // {
+  //   path: '/todos',
+  //   name: 'todos',
+  //   component: Todos,
+  // },
 
 ];
 

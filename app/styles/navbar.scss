@@ -1,0 +1,13 @@
+.navbar {
+  display: flex;
+  padding: 1rem;
+  background: #07a6eb;
+  color: $c-white;
+}
+
+.nav-left__item {
+  align-self: center;
+  padding: 0;
+  text-decoration: none;
+  color: inherit;
+}

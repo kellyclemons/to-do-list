@@ -1,0 +1,54 @@
+.todo-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: $c-greylink;
+  box-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.5);
+}
+
+.todo-title {
+  margin: 0;
+  padding: 5rem;
+  background: $c-red;
+  color: $c-white;
+  font-family: 'Shadows Into Light Two', cursive;
+  font-size: 5rem;
+  text-align: center;
+}
+
+.todo-header {
+  margin: 0;
+  color: $c-white;
+  font-family: 'Shadows Into Light Two', cursive;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.todo-form {
+  align-self: center;
+  margin: 1rem;
+}
+
+.todo-item {
+  padding: 1rem;
+  border: 3px solid $c-red;
+  border-radius: 10px;
+  outline: none;
+  background: $c-white;
+  color: $c-red;
+  font-size: 2rem;
+}
+
+.new-todo {
+  display: flex;
+  flex-direction: column;
+}
+
+.todo-details {
+  display: flex;
+  justify-content: center;
+
+  &__item {
+    margin: 1rem;
+  }
+}
